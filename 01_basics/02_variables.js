@@ -20,3 +20,10 @@ console.log(email);
 
 console.table([id,name,email]);
 
+
+/*
+  1. variable is global scope and can be redeclared and updated 
+  2. const is clock scope and it can be redclared and updated 
+  3. let is fubction scoped can be updated but cannot be redclared 
+*/
+
