@@ -46,9 +46,35 @@ let obj =[{
     department:'IT',
 }]  // define student details in an array object 
 
-
 for(let std of obj){
     console.table([std.id,std.name,std.age,std.salary,std.department]);
 }
 
+for(let s in obj){
+    console.log(obj[s]);
+}
+
+// Some example of object data types 
+
+let studentDetails = [{
+    studentId : 101,
+    studentName : 'Mangesh',
+    email : 'mghule1020@gmail.com',
+    password : 'pass@123',
+    mobileNumber : 8669676072
+}]
+
+for(let student of studentDetails){
+    console.table([
+        student.studentId,
+        student.studentName,
+        student.email,
+        student.password,
+        student.mobileNumber
+    ])
+} // use for of loop 
+
+for(let student in studentDetails){
+    console.log(studentDetails[student]);
+}
 
