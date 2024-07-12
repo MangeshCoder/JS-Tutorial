@@ -76,5 +76,6 @@ for(let student of studentDetails){
 
 for(let student in studentDetails){
     console.log(studentDetails[student]);
+    console.log("Student get successfully");
 }
 
